@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	fmt.Println(add(42,13))
+	fmt.Println(add(42, 13))
 
 }
 

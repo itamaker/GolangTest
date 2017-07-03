@@ -1,10 +1,10 @@
 package main
 
 import (
-	//"fmt"
-	//"os"
-	//"strings"
-	//"bufio"
+//"fmt"
+//"os"
+//"strings"
+//"bufio"
 )
 
 func main() {
@@ -35,7 +35,6 @@ func main() {
 	//
 	//fmt.Println(s)
 
-
 	//fmt.Println(strings.Join(os.Args[1:]," "))
 
 	//fmt.Println(os.Args[1:])
@@ -53,7 +52,6 @@ func main() {
 	//	}
 	//
 	//}
-
 
 	//counts := make(map[string]int)
 	//files := os.Args[1:]
@@ -80,10 +78,7 @@ func main() {
 	//	}
 	//}
 
-
-
 }
-
 
 //func countLines(f *os.File,counts map[string]int)
 //

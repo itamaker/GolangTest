@@ -8,9 +8,9 @@ import (
 func main() {
 
 	game := [][]string{
-		[]string{"_","_","_"},
-		[]string{"_","_","_"},
-		[]string{"_","_","_"},
+		[]string{"_", "_", "_"},
+		[]string{"_", "_", "_"},
+		[]string{"_", "_", "_"},
 	}
 
 	game[0][0] = "X"
@@ -21,12 +21,11 @@ func main() {
 
 	fmt.Println(game)
 
-
 	printBoards(game)
 }
 
 func printBoards(s [][]string) {
 	for i := 0; i < len(s); i++ {
-		fmt.Printf("%s\n",strings.Join(s[i]," "))
+		fmt.Printf("%s\n", strings.Join(s[i], " "))
 	}
 }
